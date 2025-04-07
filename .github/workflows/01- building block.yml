@@ -14,9 +14,7 @@ jobs:
             steps: 
                - name: failed step
                  run: echo "i will fail"
-<<<<<<< HEAD:.github/workflows/01- building block.yml
-                 exit 0
-=======
->>>>>>> 7813afc5954050d26e69bf5f79ee4de597b69529:.github/workflows/main.yml
+                   exit 0
+                   
                - name: say goodbye
                  run: echo "bye bye"
